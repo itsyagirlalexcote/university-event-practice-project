@@ -29,20 +29,15 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
  
-- HTML5
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
+- HTML
+- CSS
+- Javascript
 
 ### What I learned
 
@@ -52,7 +47,7 @@ If you want more help with writing markdown, check out [The Markdown Guide](http
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to practice using APIs more to refine this skill. I've had little practice so I needed a refresh in my learning process to build functional filters for this project. 
 
 ### Useful resources
 
