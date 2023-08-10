@@ -84,6 +84,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General styles */
+
+h1, h2 {
+  font-family: 'Adobe Caslon';
+}
+h1 {
+  font-style: italic;
+}
+
+h3, h4, p {
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 600; /* Book weight */
+}
+
+
+/* Header styles */
+
+
+
+/* Main Styles */
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
