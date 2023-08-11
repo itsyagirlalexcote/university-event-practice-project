@@ -30,33 +30,51 @@
     <div class="header-wrapper">
       <img src="img/gaiters.jpg" alt="University log" width="15%">
     </div>
+    <div class="event-title">
+      <h1>Homecoming September 2023 Event Attendees</h1>
+    </div>
   </header>
 
   <main>
 
-    <section class="event-title">
-      <h1>Homecoming September 2023 Event Attendees</h1>
-    </section>
-
-    <section class="main-content">
+    <aside class="main-content">
       <div class="filters">
         <h2>Filter Attendees</h2>
         <div class="filter-names">
           <h3>By Name</h3>
-          <!-- Add Search box -->
+          <input class="search" type="text" placeholder="" value>
         </div>
         <div class="filter-school">
           <h3>School</h3>
-          <!--Add Check boxes -->
+          <ul class="filter-school">
+            <li class="filter">
+              <input type="checkbox" class="filter-checkbox">
+              "College"     
+            </li>
+            <li class="filter">
+              <input type="checkbox" class="filter-checkbox">
+              "Law"     
+            </li>
+          </ul>
         </div>
         <div>
           <h3>Registration Status</h3>
-          <!--Add Check boxes -->
+          <ul class="filter-registration">
+            <li class="filter">
+              <input type="checkbox" class="filter-checkbox">
+              "Registered"     
+            </li>
+            <li class="filter">
+              <input type="checkbox" class="filter-checkbox">
+              "Not-Registered"     
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="filter-results">
+    </aside>
+
+    <section class="filter-results">
         <!-- Figure out how to input filter results with API -->
-      </div>
     </section>
 
   </main>
