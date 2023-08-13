@@ -89,6 +89,7 @@ textarea {
 h1, h2 {
   font-family: 'Adobe Caslon';
 }
+
 h1 {
   font-style: italic;
 }
@@ -113,6 +114,7 @@ h3, h4, p {
 
 .header-wrapper h2 {
   color:#fff;
+  font-size: 1.75rem;
 }
 
 .event-title {
@@ -131,9 +133,49 @@ h3, h4, p {
 
 /* Main Styles */
 
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Filters */
+
+.filters {
+  padding: 30px;
+  margin: auto;
+}
+
+.filters h2 {
+  color: rgb(56, 34, 96);
+}
+
+/* Footer Styles */
+
+.footer-banner-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
 
 
-/* ==========================================================================
+.footer-banner-wrapper h2 {
+  padding: 0;
+  margin: 5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+==========================================================================
    Helper classes
    ========================================================================== */
 
